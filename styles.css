@@ -1,0 +1,76 @@
+*, *::before, *::after {
+  border: 0px;
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+.header {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 10;
+}
+.header.salad {
+    color: #d3c2ae;
+    background-color: #2c4234;
+}
+
+.header.feta {
+    color: #f1ece2;
+    background-color: #db3619;
+}
+
+.header.bread {
+    color: #5a3307;
+    background-color: #ebb72a;
+}
+
+.navigation a {
+display: inline-block;
+padding: 15px 5px;
+}
+.navigation{
+text-align: center;
+margin-bottom: 10px;
+}
+
+.header-img{
+display: block;
+margin: 0 auto;
+margin-bottom: 30px;
+}
+
+.recipe-list li{
+display: inline-block;
+padding: 20px 20px;
+background-color: #cc7919;
+margin: 10px;
+}
+.recipe-list{
+text-align: center;
+margin-bottom: 10px;
+}
+
+.text{
+ width: 400;
+ height: auto;
+ margin: 10px;
+ padding-left: 50px;
+ padding-right: 50px;
+}
+.ingredients, .instructions{
+width: 400;
+ height: auto;
+ margin: 20px;
+ padding: 10px;
+ padding-left: 100px;
+ padding-right: 100px;
+ border: 5px dotted;
+}
+.ingredients li, .instructions li {
+    padding: 5px;
+    
+}
+
